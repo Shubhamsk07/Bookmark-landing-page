@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css" />
+
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="font-nunito font-semibold line-height-1.5 overflow-x-hidden ">
+  <div class="container  pt-12 ">
+    <!-- navbar -->
+    <navbar>
+      <div class="flex  justify-between  ">
+        <div>
+          <img src="../images/logo-bookmark.svg" class="ml-60">
+        </div>
+        <div class="flex  pr-10 items-center">
+
+          <p class="px-8 cursor-pointer hover:text-red-400 uppercase text-gray-600 text-[12px]">Features</p>
+          <p class="px-8 cursor-pointer hover:text-red-400 uppercase text-gray-600 text-[12px]">Pricing</p>
+          <p class="px-8 cursor-pointer hover:text-red-400 uppercase text-gray-600 text-[12px]">Contact</p>
+          <button
+            class="px-7 uppercase ml-5 text-[12px] py-2 bg-red-500 text-white font-semibold rounded-md shadow-md hover:ring-2 hover:ring-red-500 hover:bg-white hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-75">Login</button>
+
+        </div>
+      </div>
+    </navbar>
+    <!-- navbar ends here -->
+
+    <!-- First Section-->
+    <div class="flex  h-[80vh] hover:text-red-400 pt-20">
+      <div class="flex justify-evenly mb-18 ml-52 h-96 w-full">
+
+        <div class="w-[450px] mt-16">
+          <h1 class="text-5xl  font-bold text-gray-800 mb-6 ">A Simple Bookmark </br>Manager</h1>
+
+          <p class="text-gray-400 mb-6 font-semibold">A clean and simple interface to organize your favourite websites.
+            Open a new
+            browser tab and see your sites load instantly. Try it for free.</p>
+          <button
+            class="rounded-md p-2 font-bold hover:bg-white hover:border-[2px] border-2 hover:border-indigo-500 hover:text-indigo-500 bg-indigo-500 text-white">Get
+            it on Chrome</button>
+          <button class="rounded-md p-2 font-bold  hover:bg-white hover:border-[2px] border-2 hover:border-gray-500 hover:text-gray-500 bg-white
+           text-gray-500 shadow-md mx-2">Get it on Firefox</button>
+
+        </div>
+        <div class="relative   ">
+          <img src="../images/illustration-hero.svg " class="w-full h-full ml-12 left-52 top-22 z-10" />
+          <div class="absolute w-[800px] left-72 h-64 bottom-1  bg-indigo-600 rounded-full overflow-hidden -z-10">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- section-2 -->
+    <div class="flex justify-center items-center flex-col mx-[400px] h-[230px] text-center  ">
+
+      <h1 class="text-3xl font-bold mb-8  text-gray-800">Features</h1>
+
+      <p class="text-gray-400">Our aim is to make it quick and easy for you to access your favourite websites.
+        Your bookmarks sync between your devices so you can access them on the go.</p>
+
+    </div>
+    <!-- 3 lines -->
+    <div class="flex items-center justify-center  mt-6  ">
+
+      <p class="mx-12 text-gray-800 hover:text-red-400 cursor-pointer">Simple Bookmarking</p>
+      <p class="mx-12 text-gray-500 hover:text-red-400 cursor-pointer">Speedy Searching</p>
+      <p class="mx-12 text-gray-500 hover:text-red-400 cursor-pointer">Easy Sharing</p>
+    </div>
+    <div class=" flex mt-6 ml-[300px] w-64 rounded-md   items-center justify-center border-2 border-red-400"></div>
+    <div class="flex items-center justify-center  border-[0.1px] mx-[300px]  border-gray-300"></div>
+
+    <div class="flex  h-[65vh] mt-20">
+      <div class="flex justify-center mb-18 ml-40 mr-20 h-80 w-full">
+        <div class="relative   ">
+          <img src="../images/illustration-features-tab-1.svg " class="w-full h-full right-48 top-10 mr-20 z-10" />
+          <div
+            class="absolute w-[850px] right-20 h-80 bottom-1 top-24  bg-indigo-600 rounded-full overflow-hidden -z-10">
+          </div>
+        </div>
+
+        <div class="w-[450px] ml-28  mt-16 ">
+          <h1 class="text-4xl  font-bold text-gray-800 mb-6  ">Bookmark in one click</h1>
+
+          <p class="text-gray-400 mb-6 font-semibold"> Organize your bookmarks however you like. Our simple
+            drag-and-drop interface
+            gives you complete control over how you manage your favourite sites.</p>
+          <button
+            class="rounded-lg py-[10px] px-4 font-bold hover:bg-white hover:border-[2px] border-2 hover:border-indigo-500 hover:text-indigo-500 bg-indigo-500 text-white">
+            More Info</button>
+
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- extension section -->
+  <div class="flex justify-center text-center mt-36 flex-col  ">
+    <h1 class="text-3xl text-gray-800 font-bold">Download the extension</h1>
+    <p class="text-gray-400 pt-4 px-96">We’ve got more browsers in the pipeline. Please do let us know if you’ve
+      got a favourite you’d like us to prioritize.</p>
+  </div>
+  <div class="flex ml-72 mt-12">
+    <div class="flex flex-col shadow-xl mr-5 rounded-xl h-72 w-[235px] items-center">
+      <img src="../images/logo-chrome.svg " class="h-20 w-20 mt-10 mb-5" />
+      <h1 class="text-xl font-bold  text-gray-800">Add to Chrome</h1>
+      <p class="text-gray-400 text-sm mt-1 mb-1">Minimum version 62</p>
+      <img src="../images/bg-dots.svg" class="mb-4 mt-3" />
+
+      <button
+        class="bg-indigo-500 rounded-md mt-1 mb-2 text-sm font-bold hover:text-indigo-500 border-2 hover:bg-white cursor-pointer border-indigo-500 py-2 px-4 text-white ">Add
+        & Install Extension</button>
+
+
+    </div>
+    <div class="flex flex-col shadow-xl mt-10 mr-4 ml-4  rounded-xl h-72 w-[235px] items-center">
+      <img src="../images/logo-firefox.svg " class="h-20 w-20 mt-10 mb-5" />
+      <h1 class="text-xl font-bold  text-gray-800">Add to Firefox</h1>
+      <p class="text-gray-400 text-sm mt-1 mb-1">Minimum version 55</p>
+      <img src="../images/bg-dots.svg" class="mb-4 mt-3" />
+
+      <button
+        class="bg-indigo-500 rounded-md mt-1 mb-2 text-sm font-bold hover:text-indigo-500 border-2 hover:bg-white cursor-pointer border-indigo-500 py-2 px-4 text-white ">Add
+        & Install Extension</button>
+
+
+    </div>
+    <div class="flex flex-col shadow-xl ml-4 mt-20 rounded-xl h-72 w-[235px] items-center">
+      <img src="../images/logo-opera.svg " class="h-20 w-20 mt-10 mb-5" />
+      <h1 class="text-xl font-bold  text-gray-800">Add to Opera</h1>
+      <p class="text-gray-400 text-sm mt-1 mb-1">Minimum version 46</p>
+      <img src="../images/bg-dots.svg" class="mb-4 mt-3" />
+
+      <button
+        class="bg-indigo-500 rounded-md mt-1 mb-2 text-sm font-bold hover:text-indigo-500 border-2 hover:bg-white cursor-pointer border-indigo-500 py-2 px-4 text-white ">Add
+        & Install Extension</button>
+
+
+    </div>
+  </div>
+  <!-- extension section ends here -->
+
+  <div class="mt-32 px-[400px] flex flex-col justify-center  items-center">
+    <h1 class="text-3xl text-gray-800  font-extrabold">Frequently Asked Questions</h1>
+    <p class="text-center mt-4 mb-16  text-gray-400">Here are some of our FAQs. If you have any other questions you’d
+      like
+      answered please feel free to email us.</p>
+    <!-- Accordion 1 -->
+    <div class="border-[0.5px]  border-gray-200 w-full"></div>
+    <button
+      class="w-full py-3 border-gray-400  p-2 hover:text-red-400 text-gray-900 text-left flex items-center justify-between"
+      onclick="toggleAccordion('accordion-1','arrow-1')">
+      What is Bookmark?
+      <!-- Accordion arrow -->
+      <img id="arrow-1" src="../images/icon-arrow.svg" class=" transition-colors" />
+    </button>
+    <!-- Accordion Content 1 -->
+    <div id="accordion-1" class="hidden p-2 text-gray-500">
+      <!-- Answer 1 -->
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
+      justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+    </div>
+
+    <!-- Accordion 2 -->
+    <div class="border-[0.5px]  border-gray-200 w-full"></div>
+    <button
+      class="w-full arrow py-3 text-gray-900  hover:text-red-400 border-gray-400  p-2 text-left flex items-center justify-between"
+      onclick="toggleAccordion('accordion-2','arrow-2')">
+      How can I request a new browser?
+      <!-- Accordion arrow -->
+      <img id="arrow-2" src="../images/icon-arrow.svg" class="transition-colors" />
+    </button>
+    <!-- Accordion Content 2 -->
+    <div id="accordion-2" class="hidden p-2 text-gray-500">
+      <!-- Answer 2 -->
+      Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
+      Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+      ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+      Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+    </div>
+    <!-- Accordion 3 -->
+    <div class="border-[0.5px]  border-gray-200 w-full"></div>
+    <button
+      class="w-full py-3 border-gray-400 text-gray-900  hover:text-red-400 p-2 text-left flex transition-colors items-center justify-between"
+      onclick="toggleAccordion('accordion-3','arrow-3')">
+      Is there a mobile app?
+      <!-- Accordion arrow -->
+      <img id="arrow-3" src="../images/icon-arrow.svg" class="transition-colors" />
+    </button>
+    <!-- Accordion Content 3 -->
+    <div id="accordion-3" class="hidden p-2 text-gray-500 ">
+      <!-- Answer 3 -->
+      Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum
+      urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
+      sollicitudin ex et ultricies bibendum.
+    </div>
+    <!-- Accordion 4 -->
+    <div class="border-[0.5px]  border-gray-200 w-full"></div>
+    <button class="w-full py-3 text-gray-900   border-gray-400  p-2 text-left flex items-center justify-between"
+      onclick="toggleAccordion('accordion-4','arrow-4')">
+      What about other Chromium browsers?
+      <!-- Accordion arrow -->
+      <img id="arrow-1" src="../images/icon-arrow.svg" class="transition-colors" />
+    </button>
+    <!-- Accordion Content 4 -->
+    <div id="accordion-4" class="hidden p-2 text-gray-500">
+      <!-- Answer 4 -->
+      Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam
+      vitae neque eget nisl gravida pellentesque non ut velit.
+    </div>
+    <div class="border-[0.5px]  border-gray-200 w-full"></div>
+    <button
+      class="mt-10 text-white bg-indigo-500 px-4 rounded-md py-2 font-bold hover:text-indigo-500 hover:bg-white  border-2 border-indigo-500 text-center">More
+      Info</button>
+
+  </div>
+
+
+
+  </div>
+  <!-- contact us section -->
+  <div class="flex flex-col bg-indigo-500 mt-40 h-[350px] text-center items-center">
+    <p class="text-white mt-14  font-semibold">35,000+ already joined</p>
+    <h1 class="text-3xl text-white pt-6 font-bold px-[480px]">Stay up-to-date with what we’re doing</h1>
+    <div class="flex justify-between mt-8 ">
+      <input type="text" placeholder="Enter your email address"
+        class="rounded-md text-sm py-2 outline-none text-center  w-60">
+      <button class="text-white text-sm rounded-md bg-red-400 ml-5 py-3 px-5">Contact Us</button>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="h-20 bg-indigo-950 flex justify-between">
+
+    <div class="flex ml-36  mx-10  text-white text-[10px] mt-5 justify-between">
+      <div class="mr-10">
+        <img src="../images/logo-bookmark.svg" />
+      </div>
+      <div class="flex mt-2 cursor-pointer ">
+        <p class="px-4 cursor-pointer hover:text-red-400">FEATURES</p>
+        <p class="px-4 cursor-pointer hover:text-red-400">PRICING</p>
+        <p class="uppercase px-4 cursor-pointer hover:text-red-400">contact</p>
+      </div>
+    </div>
+    <div class="flex items-center mr-44">
+      <div class="px-8">
+        <img src="../images/icon-facebook.svg" />
+      </div>
+      <div>
+        <img src="../images/icon-twitter.svg" />
+      </div>
+    </div>
+  </footer>
+
+
+  </div>
+  <script>
+    function toggleAccordion(id, arrowId) {
+      const accordion = document.getElementById(id);
+      const arrow = document.getElementById(arrowId);
+
+      accordion.classList.toggle('hidden');
+      arrow.classList.toggle('rotate-180');
+      arrow.classList.toggle('text-red-400')
+    }
+  </script>
+</body>
+
+
+</html>
